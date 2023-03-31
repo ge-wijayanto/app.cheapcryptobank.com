@@ -20,7 +20,8 @@ app.use(
       preload: true,
     }, 
     referrerPolicy: { policy: "same-origin" },
-  }));
+  })
+);
 
 function App() {
 

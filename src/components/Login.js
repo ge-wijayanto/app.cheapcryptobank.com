@@ -58,7 +58,7 @@ export default function SignIn() {
       <div className={classes.paper}>
         <img className={classes.img} src={image} />
 
-        <form className={classes.form} noValidate>
+        <form className={classes.form}>
           <TextField
             variant="outlined"
             margin="normal"
